@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f814dbc0-0220-4a91-8b68-ed14eb239f2f" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fraction/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fraction/FractionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/FractionTest.java" afterDir="false" />
+    <list default="true" id="f814dbc0-0220-4a91-8b68-ed14eb239f2f" name="Changes" comment="Création d'une fraction">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fraction/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fraction/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fraction/FractionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fraction/FractionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/FractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/FractionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FractionTest.doitRetournerUneFraction">
+  <component name="RunManager" selected="JUnit.FractionTest">
     <configuration name="FractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata_Fractions" />
       <extension name="coverage">
@@ -86,10 +84,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FractionTest.doitRetournerUneFractionAvecDenominateurNul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata_Fractions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FractionTest" />
+      <option name="METHOD_NAME" value="doitRetournerUneFractionAvecDenominateurNul" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.doitRetournerUneFractionAvecNumerateurNegatif" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata_Fractions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FractionTest" />
+      <option name="METHOD_NAME" value="doitRetournerUneFractionAvecNumerateurNegatif" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.testFractionWithZeroDenominator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata_Fractions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FractionTest" />
+      <option name="METHOD_NAME" value="testFractionWithZeroDenominator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FractionTest.doitRetournerUneFraction" />
         <item itemvalue="JUnit.FractionTest" />
+        <item itemvalue="JUnit.FractionTest.doitRetournerUneFractionAvecNumerateurNegatif" />
+        <item itemvalue="JUnit.FractionTest.doitRetournerUneFraction" />
+        <item itemvalue="JUnit.FractionTest.testFractionWithZeroDenominator" />
+        <item itemvalue="JUnit.FractionTest.doitRetournerUneFractionAvecDenominateurNul" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674386718783</updated>
-      <workItem from="1674386721029" duration="997000" />
+      <workItem from="1674386721029" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1674386797283</created>
@@ -110,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674386797283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Création d'une fraction">
+      <created>1674387818374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674387818374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Création d'une fraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création d'une fraction" />
   </component>
 </project>

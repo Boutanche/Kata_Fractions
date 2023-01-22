@@ -15,4 +15,10 @@ public interface Fraction {
      * @return le dénominateur de la fraction.
      */
     int getDenominateur();
+
+    /**
+     * Retourne la valeur décimale de la fraction.
+     * @return la valeur décimale de la fraction.
+     */
+    double toDecimal();
 }
